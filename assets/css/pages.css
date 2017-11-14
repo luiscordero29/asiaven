@@ -1,0 +1,321 @@
+.position_page {
+	height: 500px;
+	position: relative;
+	background-position: left top;
+  	background-size: 100% 500px;
+  	background-repeat: no-repeat;
+}
+.position_page .page {
+	position: absolute;
+	width: 100%;
+	top: 400px;
+	z-index: 3;
+}
+.position_page .page .title {
+	color: #000;
+	font-size: 34px;
+	line-height: 40px;
+	text-align: left;
+}
+.position_page .page .description {
+	color: #000;
+	text-align: left;
+	font-size: 14px;
+}
+.page_information {
+	background: #fff;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+/*
+	Pagina de Contacto
+*/
+.contact {
+	position: relative;
+	width: 100%;
+	height: 750px;
+}
+.googlemap {
+    position: absolute;
+    width: 80%;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+.contact .form {
+	position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 60px;
+    z-index: 1;
+    background: #333;
+    border: solid 3px #fff;
+    opacity: 0.9;
+    padding: 20px;
+}
+.contact .form h2 {
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #AAA;
+}
+.contact .form .form-control {
+    background-color: #aaa;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    color: #000;
+    opacity: 1;
+}
+.contact .form button:hover {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #000;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #ff3334;
+	opacity: 1;
+	text-align: right;
+}
+.contact .form button {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #000;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #fff;
+	opacity: 1;
+	text-align: left;
+}
+/*
+	menu contacto footer
+*/
+.box_contant {
+	height: 150px;
+	width: 100%;
+	background: #f7f7f7;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
+.box_contant:hover { 	
+	background: #d8d8d8;
+}
+.box_contant .title {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.box_contant .description {
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 10px;
+}
+/*
+	Empresas
+*/
+.wp_empresas {
+	background: #fff;
+}
+.page_empresas {
+	position: relative;
+	height: 1200px;
+}
+.page_empresas .content {
+	position: absolute;
+	width: 75%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 0;
+	background: #e7e8e8;
+	padding-top: 100px;
+	padding-right: 30px
+}
+.page_empresas .ceo {
+	position: absolute;
+	width: 50%;
+	right: 0px;
+	top: 100px;
+	z-index: 1;
+	background: #FFF;
+	box-shadow: 1px 1px 8px #dbdbdb ;
+	padding: 20px;
+}
+.page_empresas .text_description {
+  	margin-top: 20px;
+  	padding-left: 30px;
+  	text-align: left;
+	color:#333;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+}
+.page_empresas .text_content {
+  	margin-top: 50px;
+  	padding-left: 30px;
+  	padding-right: 30px;
+  	text-align: left;
+	color:#333;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: "Montserrat-Regular";
+}
+.page_empresas .image_content {
+  	margin-top: 30px;
+  	padding-left: 50px;
+  	height: 300px;
+}
+.page_empresas .title_information_c1 {
+	margin-top: 130px;
+  	padding-left: 30px;
+	color:#333;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+}
+.page_empresas .title_information_c2 {
+	margin-top: 130px;
+	color:#333;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+}
+.page_empresas .title_information_c3 {
+	margin-top: 130px;
+	color:#333;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+}
+.page_empresas .text_information_c1 {
+	margin-top: 30px;
+  	padding-left: 30px;
+  	text-align: left;
+	color:#333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	padding-right: 10px;
+}
+.page_empresas .text_information_c2 {
+	margin-top: 30px;
+	text-align: left;
+	padding-left: 0px;
+	color:#333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	padding-right: 10px;
+}
+.page_empresas .text_information_c3{
+	margin-top: 30px;
+	text-align: left;
+	margin-right: 40px;
+	color:#333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Montserrat-Regular";
+	padding-right: 10px;
+}
+.page_empresas .ceo .image_ceo {
+	position: relative;
+	margin-top: 30px;
+	margin-left: 120px;
+	left: 0;
+	width:50%;
+}
+.page_empresas .ceo .info_ceo {
+	margin-top: 30px;
+	color:#333;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+}
+
+/* pagina de about */
+
+.page_about {
+	background: #FFF;
+	position: relative;
+	min-height: 1200px;
+}
+.page_about  .content_ceo {
+	color:#333;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+	padding-top: 180px;
+}
+
+.page_about .image_ceo_about {
+	text-align: center;
+	padding-top: 50px;
+}
+.page_persons_about {
+	background: #DADADA;
+	margin-top:180px;	
+}
+.page_persons_about .image_persons {
+	padding-top: 40px;
+	padding-bottom: 40px;
+} 
+.page_persons_about .image_persons img {
+	width: 100%;
+}
+.page_persons_about .white {
+  background: #FFF;
+  margin-left: 40px;
+  height: 200px;
+  width: 500px;
+}
+.page_persons_about .white .text_mision {
+	background: #FFF;
+	color:#333;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;	
+} 
+.page_persons_about .white .image_mision {
+	background: #FFF;	
+	margin-top: 50px;
+	margin-left: 0px;
+}
+.page_persons_about .white2 {
+  background: #FFF;
+  margin-left: 40px;
+  margin-top: 5px;
+  height: 200px;
+  width: 500px;
+}
+.page_persons_about .white2 .text_vision {
+	background: #FFF;
+	color:#333;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: "Montserrat-Regular";
+	text-align: left;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 30px;	
+} 
+.page_persons_about .white2 .image_vision {
+	background: #FFF;	
+	margin-top: 50px;
+	margin-left: 30px;
+}

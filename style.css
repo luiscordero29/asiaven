@@ -1,0 +1,17 @@
+/*
+Theme Name: ASIAVEN
+Theme URI: http://www.asiaven.com/
+Author: Ing. Luis Cordero
+Author URI: http://www.luiscordero29.com/
+Description: Theme Customize
+Version: 1.0
+License: Todos los Derechos reservados
+Text Domain: asiaven
+*/
+@import url("assets/css/redes.css");
+@import url("assets/css/fonts.css");
+@import url("assets/css/home.css");
+@import url("assets/css/pages.css");
+@import url("assets/css/topmenu.css");
+@import url("assets/css/footer.css");
+@import url("assets/css/media.css");

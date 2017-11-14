@@ -1,0 +1,29 @@
+.position_6 {
+	background: #000;
+	padding-top: 100px;
+	padding-bottom: 50px;
+
+}
+.position_6 .box_map, 
+.position_6 .box_email,
+.position_6 .box_phone,
+{
+	color: #333;
+	text-align: left;
+	font-size: 12px;
+	line-height: 10px;
+	font-family: "Tahoma-Regular";
+	font-weight: bold;
+}
+.position_6 .icon {
+	color: #FFF;
+	/*padding-left: 10px;*/
+}
+.position_6  .rigths {
+	border-top: solid 1px #333;
+	padding-top: 10px;
+	margin-top: 30px;
+	color: #FFF;
+	font-size: 12px;
+	font-family: "Montserrat-Bold";
+}

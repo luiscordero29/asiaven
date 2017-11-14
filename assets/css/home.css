@@ -1,0 +1,331 @@
+body {
+	background: #333;
+	font-family: "Montserrat-Regular";
+	padding-top: 50px;
+}
+.link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #4d4f4e;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #FFF;
+}
+.link a:hover {
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+.position_1 {
+	position: relative;
+	height: 520px;
+}
+.position_1 .content {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	z-index: 2;
+}
+.position_1 .slider {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.position_1 .information {
+	margin-top: 250px;
+}
+.position_1 .information .title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.position_1 .information .content {
+	color: #000;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 30px;
+}
+.position_1 .information .content {
+	color: #000;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 30px;
+}
+.position_2 {
+	background-image: url('../images/bg_slide_services.jpg');
+	background-position: left top;
+	background-size: 100% 677px;
+	background-repeat: no-repeat;
+	height: 677px;
+}
+.position_2 .information {
+    margin-top: 300px;
+    width: 100%;
+}
+.position_2 .information .title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.position_2 .information .title span {
+	color: #000;
+}
+.position_2 .information .content {
+	color: #000;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 30px;
+}
+.position_2 .information .content {
+	color: #000;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 30px;
+}
+.position_2 .information .link {
+	text-align: right;
+	margin-top: 20px;
+}
+.position_2 .information .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #4d4f4e;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #FFF;
+}
+.position_2 .information .link a:hover {
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+.position_3 {
+	background: #fff;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url('../images/logo_asiaven_rojo.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.position_3 .service_logo {
+	height: 300px;
+}
+.position_3 .service_1 {
+}
+.position_3 .service_1 .title {
+	background-image: url('../images/service_1.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 100px;
+	text-align: right;
+	font-size: 20px;
+	color: #000;
+	padding-top: 10px;
+	height: 60px;
+}
+.position_3 .service_1 .content {
+	font-size: 12px;
+	color: #000;
+	text-align: right;
+	line-height: 30px;
+}
+.position_3 .service_1 .link {
+	text-align: left;
+	margin-top: 15px;
+}
+.position_3 .service_1 .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #FFF;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #000;
+}
+.position_3 .service_1 .link a:hover {
+	background: #7f7f7f;
+	color: #FFF;
+	text-decoration: none;
+}
+.position_3 .service_2 {
+
+}
+.position_3 .service_2 .title {
+	background-image: url('../images/service_2.jpg');
+	background-repeat: no-repeat;
+	padding-right: 100px;
+	background-position: right top;
+	text-align: left;
+	font-size: 20px;
+	color: #000;
+	padding-top: 10px;
+
+	height: 60px;
+}
+.position_3 .service_2 .content {
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	line-height: 30px;
+}
+.position_3 .service_2 .link {
+	text-align: right;
+	margin-top: 15px;
+}
+.position_3 .service_2 .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #FFF;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #000;
+}
+.position_3 .service_2 .link a:hover {
+	background: #7f7f7f;
+	color: #FFF;
+	text-decoration: none;
+}
+.position_3 .service_3 {
+}
+.position_3 .service_3 .title {
+	background-image: url('../images/service_3.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 100px;
+	text-align: right;
+	font-size: 20px;
+	color: #000;
+	padding-top: 10px;
+	height: 60px;
+}
+.position_3 .service_3 .content {
+	font-size: 12px;
+	color: #000;
+	text-align: right;
+	line-height: 30px;
+}
+.position_3 .service_3 .link {
+	text-align: left;
+	margin-top: 15px;
+}
+.position_3 .service_3 .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #FFF;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #000;
+}
+.position_3 .service_3 .link a:hover {
+	background: #7f7f7f;
+	color: #FFF;
+	text-decoration: none;
+}
+.position_3 .service_4 {
+}
+.position_3 .service_4 .title {
+	background-image: url('../images/service_4.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-right: 100px;
+	text-align: left;
+	font-size: 20px;
+	color: #000;
+	padding-top: 10px;
+	height: 60px;
+}
+.position_3 .service_4 .content {
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	line-height: 30px;
+}
+.position_3 .service_4 .link {
+	text-align: right;
+	margin-top: 15px;
+}
+.position_3 .service_4 .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #FFF;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #000;
+}
+.position_3 .service_4 .link a:hover {
+	background: #7f7f7f;
+	color: #FFF;
+	text-decoration: none;
+}
+.position_4 {
+	background-image: url('../images/slider_footer.jpg');
+	background-position: left top;
+	background-size: 100% 587px;
+	background-repeat: no-repeat;
+	height: 587px;
+}
+.position_4 .information {
+	margin-top: 220px;
+	width: 100%;
+}
+.position_4 .information .title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.position_4 .information .title span {
+	color: #000;
+}
+.position_4 .information .content {
+	color: #000;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 30px;
+}
+.position_4 .information .link {
+	text-align: right;
+	margin-top: 20px;
+}
+.position_4 .information .link a {
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	background: #4d4f4e;
+	border: solid 2px #000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #FFF;
+}
+.position_4 .information .link a:hover {
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+.position_4 .information .link a:hover {
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+.position_5 {
+	background-image: url('../images/mapa.jpg');
+	background-position: left top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.position_6 {
+	background: #000;
+}
+.banners {
+	height: 270px;
+	padding-top: 10px;
+}
+

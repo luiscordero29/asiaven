@@ -1,0 +1,57 @@
+/*
+  Top Menu
+*/
+.topmenu {
+	font-family: "Montserrat-Regular";
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.topmenu .nav-pills > li > a {
+    border-radius: 0px;
+}
+.topmenu .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+    color: #FFF;
+}
+.topmenu li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFF;
+}
+.topmenu .nav-pills > li.active > a,.topmenu .nav-pills > li.active > a:focus, .topmenu .nav-pills > li.active > a:hover {
+    color: #000;
+    background-color: transparent;
+}
+.bar {
+	text-align: right;
+}
+.bar a {
+	color: #000;
+}
+.mainmenu {
+	background: #fff ;
+	opacity: 0.5;
+}
+.mainmenu ul {
+	margin-left: 80px;
+}
+.mainmenu .nav-pills > li > a {
+    border-radius: 0px;
+}
+.mainmenu .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 35px;
+    color: #AAA;
+}
+.mainmenu li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+}
+.mainmenu .nav-pills > li.active > a,.topmenu .nav-pills > li.active > a:focus, .topmenu .nav-pills > li.active > a:hover {
+    color: #000;
+    background-color: transparent;
+}
